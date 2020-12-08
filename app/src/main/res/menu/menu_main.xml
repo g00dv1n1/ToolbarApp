@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.netodologia.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="Записная книжка"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_calendar"
+        android:orderInCategory="200"
+        android:title="CalendarViewApp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_spinner"
+        android:orderInCategory="200"
+        android:title="SpinnerApp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_checkbox"
+        android:orderInCategory="200"
+        android:title="CheckBoxApp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_healthApp"
+        android:orderInCategory="200"
+        android:title="HealthApp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_subscribe"
+        android:orderInCategory="200"
+        android:title="Подписка"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open_album"
+        android:orderInCategory="200"
+        android:title="Фотоальбом"
+        app:showAsAction="never" />
+</menu>

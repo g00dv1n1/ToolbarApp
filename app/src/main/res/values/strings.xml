@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ToolbarApp</string>
+    <string name="stringButton">Сохранить</string>
+    <string name="start">Дата-время старта задачи:</string>
+    <string name="end">Дата-время окончания задачи:</string>
+    <string name="buttonOk">OK</string>
+    <string name="start_text">Дата-время старта задачи: %1$s</string>
+    <string name="end_text">Дата-время окончания задачи: %1$s</string>
+    <string name="result_text">старт: %1$s окончаниe: %2$s</string>
+    <string name="error_message">Ошибка</string>
+    <string name="showAddressBtn">Показать адрес</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+    <string name="input_money">Ввод денег</string>
+    <string name="pay_inform">Информация об оплате</string>
+    <string name="ok_button">Ok</string>
+    <string name="card_pay">С банковской карты</string>
+    <string name="phone_pay">С мобильного телефона</string>
+    <string name="cash_pay">Наличными по адресу</string>
+    <string name="click_message">Оплата на сумму %1$s %2$s %3$s</string>
+    <string name="empty_message">Все поля должны быть заполнены</string>
+    <string name="app_description">«Комплексная система мониторинга здоровья» автор Шиллер В.С.</string>
+    <string name="user_nameHint">Имя пользователя</string>
+    <string name="user_ageHint">Возраст</string>
+    <string name="button_saveText">Сохранить</string>
+    <string name="button_pressureText">Давление</string>
+    <string name="button_statisticsText">Показатели</string>
+    <string name="pressureText">Давление</string>
+    <string name="upHint">Верхнее значение</string>
+    <string name="downHint">Нижнее значение</string>
+    <string name="pulseHint">Пульс</string>
+    <string name="tachoHint">Тахикардия</string>
+    <string name="dateHint">Дата замера</string>
+    <string name="error_message_dimension">Дата введена неверно</string>
+    <string name="statisticsText">Жизненные показатели</string>
+    <string name="weightHint">Вес</string>
+    <string name="stepHint">Количество шагов</string>
+    <string name="head">Подписка</string>
+    <string name="login">Имя пользователя</string>
+    <string name="email">Электронная почта</string>
+    <string name="ok">Подписаться</string>
+    <string name="clean">Очистить</string>
+    <string name="message">Подписка на рассылку успешно оформлена для пользователя %1$s на электронный адрес %2$s</string>
+    <string name="next">Вперёд</string>
+    <string name="back">Назад</string>
+</resources>
