@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    Intent intentNotes = new Intent();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,42 +34,17 @@ public class MainActivity extends AppCompatActivity {
 
         int id = item.getItemId();
 
-        if (id == R.id.action_open_notes) {
-            Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
-            startActivity(intentNotes);
+        switch (id) {
+            case R.id.action_open_notes : intentNotes = new Intent(MainActivity.this, NotesActivity.class);
+            case R.id.action_open_calendar : intentNotes = new Intent(MainActivity.this, CalendarViewActivity.class);
+            case R.id.action_open_spinner : intentNotes = new Intent(MainActivity.this, SpinnerActivity.class);
+            case R.id.action_open_checkbox : intentNotes = new Intent(MainActivity.this, CheckBoxActivity.class);
+            case R.id.action_open_healthApp : intentNotes = new Intent(MainActivity.this, HealthAppActivity.class);
+            case R.id.action_open_subscribe : intentNotes = new Intent(MainActivity.this, SubscribeActivity.class);
+            case R.id.action_open_album : intentNotes = new Intent(MainActivity.this, PhotoAlbumActivity.class);
         }
 
-        if (id == R.id.action_open_calendar) {
-            Intent intentNotes = new Intent(MainActivity.this, CalendarViewActivity.class);
-            startActivity(intentNotes);
-        }
-
-        if (id == R.id.action_open_spinner) {
-            Intent intentNotes = new Intent(MainActivity.this, SpinnerActivity.class);
-            startActivity(intentNotes);
-        }
-
-        if (id == R.id.action_open_checkbox) {
-            Intent intentNotes = new Intent(MainActivity.this, CheckBoxActivity.class);
-            startActivity(intentNotes);
-        }
-
-        if (id == R.id.action_open_healthApp) {
-            Intent intentNotes = new Intent(MainActivity.this, HealthAppActivity.class);
-            startActivity(intentNotes);
-        }
-
-        if (id == R.id.action_open_subscribe) {
-            Intent intentNotes = new Intent(MainActivity.this, SubscribeActivity.class);
-            startActivity(intentNotes);
-        }
-        if (id == R.id.action_open_album) {
-            Intent intentNotes = new Intent(MainActivity.this, PhotoAlbumActivity.class);
-            startActivity(intentNotes);
-        }
-
-
-
+        startActivity(intentNotes);
         return super.onOptionsItemSelected(item);
     }
 }
