@@ -35,13 +35,13 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         switch (id) {
-            case R.id.action_open_notes : intentNotes = new Intent(MainActivity.this, NotesActivity.class);
-            case R.id.action_open_calendar : intentNotes = new Intent(MainActivity.this, CalendarViewActivity.class);
-            case R.id.action_open_spinner : intentNotes = new Intent(MainActivity.this, SpinnerActivity.class);
-            case R.id.action_open_checkbox : intentNotes = new Intent(MainActivity.this, CheckBoxActivity.class);
-            case R.id.action_open_healthApp : intentNotes = new Intent(MainActivity.this, HealthAppActivity.class);
-            case R.id.action_open_subscribe : intentNotes = new Intent(MainActivity.this, SubscribeActivity.class);
-            case R.id.action_open_album : intentNotes = new Intent(MainActivity.this, PhotoAlbumActivity.class);
+            case R.id.action_open_notes : intentNotes = new Intent(MainActivity.this, NotesActivity.class); break;
+            case R.id.action_open_calendar : intentNotes = new Intent(MainActivity.this, CalendarViewActivity.class); break;
+            case R.id.action_open_spinner : intentNotes = new Intent(MainActivity.this, SpinnerActivity.class); break;
+            case R.id.action_open_checkbox : intentNotes = new Intent(MainActivity.this, CheckBoxActivity.class); break;
+            case R.id.action_open_healthApp : intentNotes = new Intent(MainActivity.this, HealthAppActivity.class); break;
+            case R.id.action_open_subscribe : intentNotes = new Intent(MainActivity.this, SubscribeActivity.class); break;
+            case R.id.action_open_album : intentNotes = new Intent(MainActivity.this, PhotoAlbumActivity.class); break;
         }
 
         startActivity(intentNotes);
